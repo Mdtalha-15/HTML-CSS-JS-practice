@@ -1,0 +1,42 @@
+h1{
+    color: blueviolet;
+}
+#parent{
+    background-color: yellow;
+    height: 500px; 
+    width: 500px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 500px;
+    box-shadow: 10px 10px gray ;
+}
+#eye1
+{
+    background-color: brown;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+#eye2{
+     background-color: brown;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+    
+}
+#mouth{
+    background-color: brown;
+    height: 110px;
+    width: 300px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    border-radius: 20px 20px 90px 90px;
+}

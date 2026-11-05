@@ -1,0 +1,49 @@
+/* h2{
+    color: red;
+}
+h2{
+    color: blue;
+}
+p{
+    color: brown;
+}
+.text{
+    color: orange;
+} */
+ /* p{
+    color: beige;
+ }
+ .text{
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+ }
+  p{
+    color: black;
+ } 
+  .container  p{
+    color: rgb(55, 10, 97);
+} 
+#cristiano {
+    color: #00000079;
+} */
+ h1{
+    text-align: center;
+    color: white;
+    background-color: brown;
+ }
+ p{
+    text-align: center;
+    color: olive;
+    
+ }
+ .image{
+   text-align: center;
+  
+   
+ }
+ table{
+    border: 2px solid black;
+    margin: auto;
+ }
+ 

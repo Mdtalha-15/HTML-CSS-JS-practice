@@ -1,0 +1,52 @@
+/* body{
+    color: #190;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px; */
+
+ /* .container{}
+    width: 500px;
+    padding: 20px;
+    color: blue;
+    border: 1px solid black; */
+*{
+    margin: 0;
+}
+/* .parent{
+  color: white;
+  background-color: rgb(173, 12, 146);
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+}
+span{
+    display: inline-block;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+.child{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+} */
+ form{
+    background-color: brown;
+ }
+ /* input{
+    background-color: inherit;
+ }
+ button{
+    background-color: inherit;
+ }  */
+  #google{
+   visibility: hidden;
+    border: 1px solid orangered;
+    height: 100px;
+    width: 200px;
+  }
+  h1{
+    display: inline-block;
+    background-color: black;
+  }
