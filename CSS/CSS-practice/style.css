@@ -225,7 +225,7 @@ ul{
     border: 1px solid black;
     box-shadow: 10px 10px gray;
 }
-#feature-cards>.image{
+#feature-cards>.card-icon{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -236,6 +236,27 @@ ul{
     margin: 20px ;
     font-size: large;
 }
-.text>p{
+.card-text>p{
     padding: 10px;
+}
+#about-container{
+    height: 500px;
+    width: 100%;
+    background-color: #22C55E;
+}
+#about-margin-container{
+    height: 100%;
+    width: 70%;
+    background-color: darkgoldenrod;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#about-text-container{
+    height: 100%;
+    width: 50%;
+    background-color: magenta;
+    display: flex;
+    flex-direction: column;
+
 }
