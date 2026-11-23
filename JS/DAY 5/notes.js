@@ -121,3 +121,36 @@ pattern += "* ";
 console.log(pattern);
 }
 
+// let i = 5
+// while(i<=15){
+//     console.log(i)
+// i++;
+
+// }
+
+let i = 5
+while(i>0){
+    console.log(i)
+i--;
+
+}
+
+
+let sum = 0;
+let num = 1;
+while (sum < 70) {
+sum += num;
+console.log(`Added ${num}, sum is now ${sum}`);
+num++;
+}
+console.log(`Final sum: ${sum}`);
+
+
+let password = ""
+let attempts = 0
+
+while(password !=== "secret123" && attempts < 3){
+    password = prompt("Enter your password")
+    attempts++
+}
+

@@ -74,3 +74,7 @@ let template = "Hello NAME, welcome to our website"
 let personalizedMessage = template.replace("NAME" , "Alice")
 
 alert(personalizedMessage)
+// section 6
+//question 1
+let colors={"red";"green";"blue";"yellow"}
+console.log(colors)
