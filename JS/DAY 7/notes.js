@@ -55,3 +55,54 @@ function sum(a, b) {
 let result = sum(-6, 8);
 console.log(result);
 
+
+//scopes 
+
+//function scope (can be used only current function not also in other functions)
+
+function hello(){
+    let msg = "hello world"
+    console.log(msg)
+}
+
+hello()
+
+// console.log(msg) 
+
+//global scope (can be used everywhere)
+
+let msgHello = "i am talha"
+
+
+function func1(){
+    console.log(msgHello)
+}
+
+function func2(){
+    console.log(msgHello)
+}
+
+func1()
+func2()
+
+//block scope (can be used only under {})
+{
+    let message = "hello hyderabad"
+    console.log(message)
+}
+
+// console.log(message)
+
+
+//lexical scope (the children functions can access from parent function but not vice versa)
+
+function parentFunc(){
+    let x = 10
+
+    function childFunc(){
+        console.log(x)
+    }
+    childFunc()
+}
+
+parentFunc()
